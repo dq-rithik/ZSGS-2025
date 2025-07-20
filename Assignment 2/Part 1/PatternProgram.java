@@ -1,6 +1,6 @@
 public class PatternProgram {
 
-    // Method to calculate factorial
+   
     static int factorial(int n) {
         int fact = 1;
         int i = 1;
@@ -11,11 +11,10 @@ public class PatternProgram {
         return fact;
     }
 
-    // Method to print Pascal's Triangle
+   
     static void printPascalsTriangle(int rows) {
         int i = 0;
         do {
-            // Print leading spaces
             int space = 1;
             do {
                 if (space <= rows - i)
@@ -35,7 +34,7 @@ public class PatternProgram {
         } while (i < rows);
     }
 
-    // Method to print the ZOHO pattern
+    
     static void printZohoPattern() {
         String input = "ZOHO CORP ORAT IONS";
         String[] words = input.split(" ");
@@ -48,7 +47,7 @@ public class PatternProgram {
 
     public static void main(String[] args) {
         System.out.println("a) Pascal Triangle:");
-        printPascalsTriangle(5);  // You can change the number of rows here
+        printPascalsTriangle(5);
 
         System.out.println("ZOHO Pattern:");
         printZohoPattern();
